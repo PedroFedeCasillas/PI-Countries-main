@@ -1,0 +1,159 @@
+.imagen{
+  margin-bottom: 10px;
+    width: 25rem;
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 1px 4px 0px rgb(152, 100, 236);
+    background-color: rgba(76, 0, 130, 0.099);
+}
+
+.header{
+  color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    flex-direction: row;
+    background-image: url('../../Img/mundo-conectado.jpg');
+    height: 8rem;
+    width: auto;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.contenedor{
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.detalles{
+  margin-top: 10px;
+    height: 15rem;
+    width: 25rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 1px 4px 0px rgb(152, 100, 236);
+    background-color: rgba(76, 0, 130, 0.099);
+}
+
+.activity{
+  color: rgb(73, 73, 73);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  border: 1rem;
+  height: 25rem;
+}
+
+.boxActivity{
+    width: 25rem;
+    height: 12rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(76, 0, 130, 0.099);
+    box-shadow: 0px 1px 4px 0px rgb(152, 100, 236);
+}
+
+/*===========> loading <==========*/
+.loading {
+  background-color: #0d0e2a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.loadingSpiner {
+  width: 100px;
+  height: 100px;
+  display: grid;
+  border:8px solid rgb(220, 53, 53);
+  border-radius: 50%;
+  border-color:red rgb(240, 252, 1);
+  animation: s6 2s infinite linear;
+}
+.loadingSpiner::before,
+.loadingSpiner::after {   
+  content:"";
+  grid-area: 1/1;
+  margin:4px;
+  border:inherit;
+  border-radius: 50%;
+}
+.loadingSpiner::before {
+  border-color:green rgb(19, 145, 19);
+  animation:inherit; 
+  animation-duration: 1s;
+  animation-direction: reverse;
+}
+.loadingSpiner::after {
+  margin:16px;
+}
+
+@keyframes s6 { 
+  100%{transform: rotate(1turn)}
+}
+/*===========> hasta acá loading <==========*/
+
+.volver{
+    margin: 1rem;
+    border: none;
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    font-size: large;
+    background-color: white;
+    color: #551A8B;
+    font-weight: none;
+
+}
+
+/*==========> Responsivo <=========*/
+@media only screen and (max-width: 460px) {
+
+    .header {
+      flex-wrap: wrap;
+      height: auto;
+      padding: 1rem;
+    }
+  
+    .imagen {
+      width: 80%;
+      height: 200px;
+      padding: 0.5rem;
+    }
+  
+    .contenedor {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .detalles {
+      width: 75%;
+      margin: 0.5rem;
+    }
+  
+    .activity {
+      flex-wrap: wrap;
+      height: auto;
+    }
+  
+    .boxActivity {
+      width: 90%;
+     margin-right: 150px;
+     margin-bottom: 20px;
+    }
+  
+    .volver {
+      margin: 0.5rem;
+    }
+  
+  }
+  

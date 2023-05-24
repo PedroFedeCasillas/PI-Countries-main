@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 2rem;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.pageNumber{
+    cursor: none;
+    border: none;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 3rem;
+    color: rgb(64, 0, 85);
+    text-align: center;
+    margin-left: 0.5rem;
+}
+.inputNumber{  
+    cursor: auto;
+    border: 1px solid rgb(64, 0, 85);
+    border-radius: 1rem;
+    background-color: #ffffff;
+    height: 2rem;
+    width: 3rem;
+    color: rgb(64, 0, 85);
+    text-align: center;
+    margin-left: 0.5rem;
+}
+
+.buttonAnterior{
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+    background-color:rgb(64, 0, 85);
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.buttonSiguiente{
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    background-color:rgb(64, 0, 85);
+}
+
+.iconBack{
+    width: 1rem;
+    display: flex;
+}
+
+.iconForward{
+    width: 1rem;
+}
+.hiddenButton{
+    padding: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    display: flex;
+    border-radius: 1rem;
+}
+.hiddenButtonAdelante{
+    padding: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.5rem;
+    display: flex;
+    border-radius: 1rem;
+}

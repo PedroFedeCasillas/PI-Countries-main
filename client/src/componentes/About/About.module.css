@@ -1,0 +1,86 @@
+.contenAbout{
+    background-color: #eae5e5;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.header{
+      color: #000;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content:space-evenly;
+      flex-direction: row;
+      background-image: url('../../Img/naturaleza-03.jpg');
+      height: 4rem;
+      width: auto;
+      align-content: flex-start;
+      align-items: center;
+      border-radius: 10px;
+      position: fixed;
+      margin-left: 10px;
+  }
+
+.volver{
+    margin: 1rem;
+    border: none;
+    width: 6rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: white;
+  
+    font-weight: none;
+}
+
+.parrafoAb p span{
+    margin-left: 30%;
+    max-width: 50%;
+    text-align: center;
+}
+
+
+.parrafoAb p{
+    margin-left: 20%;
+    max-width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: left;
+    border: 1px solid #6678b032;
+    border-radius: 10px;
+    color: #fff;
+    padding: 30px;
+    background: rgba(0, 1, 31, 0.95);
+    text-shadow: -5px 8px 5px rgba(0,0,0,0.61);
+  box-shadow: 6px 7px 19px 3px rgb(59, 178, 160);
+  -webkit-box-shadow: 6px 7px 19px 3px rgba(30,143,148,1);
+  -moz-box-shadow: 6px 7px 19px 3px rgba(30,143,148,1);
+}
+
+@media screen and (max-width: 460px) {
+    .contenAbout{
+        width: auto;
+        flex-direction: column;
+        box-shadow: none;
+        padding: 0;
+    }
+    
+    .header{
+        background-color: rgb(64,0,85); 
+        display: flex;
+        height: 5rem;
+        justify-content: space-between;
+    }
+    
+    .button_movil_atras{
+        width: 20px;
+        height: auto;
+    }
+    
+    .volver{
+        margin: 10px;
+        background: none; 
+        width: auto;
+    }
+}

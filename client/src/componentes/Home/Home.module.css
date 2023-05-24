@@ -1,0 +1,110 @@
+.search{
+    font-weight: 300;
+    font-size: 40px;
+    color: rgb(64, 0, 85);
+    text-align: center;
+    background-color: rgb(244 225 244 / 82%);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.cardContent{
+    display: flex;
+    padding: 2rem;
+    font: times;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+} 
+
+.opciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 3rem;
+    flex-wrap: nowrap;
+    align-items: center;
+    border:none
+}
+
+.orden{
+    border: none;
+       cursor: pointer;
+        background-color: #ffffff;
+       height: 1.5rem;
+       width: 8rem;
+       color: rgb(64, 0, 85);
+       text-align: center;
+       
+}
+
+.actividad{
+      cursor: pointer;
+      border: none;
+      background-color: #ffffff;
+      height: 1.5rem;
+      width: 8rem;
+      color: rgb(64, 0, 85);
+      text-align: center;
+      margin-right: 1rem;
+}
+.poblacion{
+    border: none;
+    cursor: pointer;
+    height: 1.5rem;
+    width: 8rem;
+    color: rgb(64, 0, 85);
+    text-align: center;
+}
+
+
+.contenedorCards{
+    height: auto;
+    width: 50rem;
+}
+
+/*==========> Loading <==========*/
+.loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: rgb(64, 0, 85);
+  }
+  
+  .loadingSpiner {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    border:8px solid rgb(220, 53, 53);
+    border-radius: 50%;
+    border-color:red rgb(240, 252, 1);
+    animation: s6 2s infinite linear;
+  }
+  .loadingSpiner::before,
+  .loadingSpiner::after {   
+    content:"";
+    grid-area: 1/1;
+    margin:4px;
+    border:inherit;
+    border-radius: 50%;
+  }
+  .loadingSpiner::before {
+    border-color:green rgb(19, 145, 19);
+    animation:inherit; 
+    animation-duration: 1s;
+    animation-direction: reverse;
+  }
+  .loadingSpiner::after {
+    margin:16px;
+  }
+  
+  @keyframes s6 { 
+    100%{transform: rotate(1turn)}
+  }
+  /*===========> hasta acá loading <==========*/

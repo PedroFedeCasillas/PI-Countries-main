@@ -1,0 +1,58 @@
+.button{
+    cursor: pointer;
+    border: none;
+    background:none;
+    height: 1.5rem;
+    width: 5rem;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 0.3rem;
+    text-align: center;
+}
+
+.input{
+    cursor: auto;
+    border: none;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    height: 4vh;
+    
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin: none;
+    text-align: left;
+    padding-left: 1rem;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+}
+
+/*==========> Responsivo <==========*/
+
+.contenedor_movil{
+    display: flex;
+    flex-direction: row;
+    width: 520px;
+}
+.input_movil{
+    border: none;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    height: 40px;
+    width: 165px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin: none;
+    padding: 10px;
+    text-align: left;
+}
+.button_movil{
+    border: none;
+    height: auto;
+    width: 5rem;
+    background: none;
+}
+.button_movil_img{
+    width: 30px;
+}
