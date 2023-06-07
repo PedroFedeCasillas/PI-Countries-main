@@ -14,6 +14,7 @@ import style from "./Home.module.css";
 import Paginacion from "../Paginacion/Paginacion";
 import useWindowDimensions from "../Hook/useWindowsDimensions";
 
+
 function Home() {
   const { countries, allActivity } = useSelector((state) => state);
 

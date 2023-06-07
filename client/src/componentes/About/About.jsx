@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import style from "./About.module.css";
 import useWindowDimensions from "../Hook/useWindowsDimensions";
 import flecha from "./flecha_atras.png";
-
+import Footer from "../Footer/Footer"
 
 export default function About() {
   const { width } = useWindowDimensions();
@@ -64,6 +64,7 @@ export default function About() {
           2- Si deseas comunicarete con el desarrollador dale click en el ícono de Linkedin.
           </p>
       </div>
+      <Footer/>
       </>
   );
 }

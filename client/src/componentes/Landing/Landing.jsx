@@ -28,7 +28,6 @@ function Landing() {
                     </Link> 
                 </div>
             </div>
-            {/* <Footer/> */}
             
         </div>
     )
